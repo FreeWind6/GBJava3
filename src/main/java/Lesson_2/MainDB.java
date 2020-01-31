@@ -15,8 +15,22 @@ public class MainDB {
         try {
             connect();
 
+            stmt.executeUpdate("CREATE TABLE test (testID INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, score INTEGER)");
 
-            stmt.executeUpdate("INSERT INTO students (name, score) values('Bob1', 10)");
+            stmt.executeUpdate("INSERT INTO test (name, score) values('Bob1', 10)");
+            stmt.executeUpdate("INSERT INTO test (name, score) values('Bob2', 20)");
+            stmt.executeUpdate("INSERT INTO test (name, score) values('Bob3', 30)");
+
+            stmt.executeUpdate("UPDATE test set score = 50 where name = 'Bob1'");
+
+            stmt.executeUpdate("DELETE FROM test WHERE name = 'Bob3'");
+
+            ResultSet select = stmt.executeQuery("SELECT * FROM test");
+            while (select.next()) {
+                System.out.println(select.getString(1) + " " + select.getString(2) + " " + select.getString(3));
+            }
+
+//            stmt.executeUpdate("INSERT INTO students (name, score) values('Bob1', 10)");
 //            Savepoint sp = connection.setSavepoint();
 //            stmt.executeUpdate("INSERT INTO students (name, score) values('Bob2', 20)");
 //            connection.rollback(sp);
