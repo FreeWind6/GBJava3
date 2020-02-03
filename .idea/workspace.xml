@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e961fd3e-b8be-441c-b976-b5862ec1529d" name="Default" comment="Add Lesson 2">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mydb.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_2/MainDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27012020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/27012020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydb.db" beforeDir="false" afterPath="$PROJECT_DIR$/mydb.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,6 +225,7 @@
       <workItem from="1580396085647" duration="91000" />
       <workItem from="1580396953308" duration="4000" />
       <workItem from="1580408854991" duration="256000" />
+      <workItem from="1580716875133" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1">
       <created>1580149986621</created>
@@ -295,22 +289,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580155556092" />
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom" timestamp="1580409054696">
+    <state width="1877" height="175" key="GridCell.Tab.0.bottom" timestamp="1580716904169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580409054696" />
-    <state width="1877" height="175" key="GridCell.Tab.0.center" timestamp="1580409054695">
+    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580716904169" />
+    <state width="1877" height="175" key="GridCell.Tab.0.center" timestamp="1580716904169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580409054695" />
-    <state width="1877" height="175" key="GridCell.Tab.0.left" timestamp="1580409054695">
+    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580716904169" />
+    <state width="1877" height="175" key="GridCell.Tab.0.left" timestamp="1580716904169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580409054695" />
-    <state width="1877" height="175" key="GridCell.Tab.0.right" timestamp="1580409054695">
+    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580716904169" />
+    <state width="1877" height="175" key="GridCell.Tab.0.right" timestamp="1580716904169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580409054695" />
+    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580716904169" />
     <state x="764" y="242" key="RollbackChangesDialog" timestamp="1580396168203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
