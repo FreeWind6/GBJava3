@@ -15,8 +15,19 @@ public class MainDB {
         try {
             connect();
 
+            crateHW("test");
 
-            stmt.executeUpdate("INSERT INTO students (name, score) values('Bob1', 10)");
+            insertHW("Bob1", 10);
+            insertHW("Bob2", 20);
+            insertHW("Bob3", 30);
+
+            updateHW("Bob1", 50);
+
+            deleteHW("test", "Bob3");
+
+            selectHW("test");
+
+//            stmt.executeUpdate("INSERT INTO students (name, score) values('Bob1', 10)");
 //            Savepoint sp = connection.setSavepoint();
 //            stmt.executeUpdate("INSERT INTO students (name, score) values('Bob2', 20)");
 //            connection.rollback(sp);
@@ -65,6 +76,54 @@ public class MainDB {
             e.printStackTrace();
         } finally {
             disconnect();
+        }
+    }
+
+    public static void crateHW(String tableName) {
+        String sql = String.format("CREATE TABLE %s (testID INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, score INTEGER)", tableName);
+        try {
+            stmt.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void insertHW(String name, int score) {
+        String sql = String.format("INSERT INTO test (name, score) values('%s', %s)", name, score);
+        try {
+            stmt.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void updateHW(String name, int score) {
+        String sql = String.format("UPDATE test set score = %s where name = '%s'", score, name);
+        try {
+            stmt.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void deleteHW(String nameTable, String name) {
+        String sql = String.format("DELETE FROM '%s' WHERE name = '%s'", nameTable, name);
+        try {
+            stmt.executeUpdate(sql);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void selectHW(String nameTable) {
+        String sql = String.format("SELECT * FROM '%s'", nameTable);
+        try {
+            ResultSet resultSet = stmt.executeQuery(sql);
+            while (resultSet.next()) {
+                System.out.println(resultSet.getString(1) + " " + resultSet.getString(2) + " " + resultSet.getString(3));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
         }
     }
 
