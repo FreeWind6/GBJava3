@@ -55,16 +55,29 @@ public class MainHW {
             long pageLength = 1800;
             long pagesCount = fileLength / pageLength;
             byte[] b = new byte[1800];
-//            System.out.println("Длинна файла: " + fileLength + " Длинна страницы: " + pageLength + " Количество страниц: " + pagesCount);
+            long p = 0;
+            System.out.println("Длинна файла: " + fileLength + " Длинна страницы: " + pageLength + " Количество страниц: " + pagesCount);
             while (true) {
-                System.out.println("Введите номер страницы от 0 до " + pagesCount + ". Или -1 для выхода из программы");
-                long p = Long.parseLong(bufferedReader.readLine());
+                System.out.println("\nВведите номер страницы от 0 до " + pagesCount + ". Или -1 для выхода из программы. Либо + или - для перехода по страницам вперед и назад");
+                String s = bufferedReader.readLine();
+                if (s.equals("+")) {
+                    p = p + 1;
+                } else if (s.equals("-")) {
+                    if (p == 0) {
+                        System.out.println("Вы были переброшены на 0 страницу!");
+                    } else {
+                        p = p - 1;
+                    }
+                } else {
+                    p = Long.parseLong(s);
+                }
                 if (p <= pagesCount && p >= 0) {
                     randomAccessFile.seek(p * pageLength);
                     randomAccessFile.read(b, 0, b.length);
                     for (byte bb : b) {
                         System.out.print((char) bb);
                     }
+                    System.out.println("\nТекущая страница: " + p);
                 } else if (p == -1) {
                     System.out.println("Пока!");
                     break;
