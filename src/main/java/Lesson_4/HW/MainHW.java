@@ -2,14 +2,14 @@
 package Lesson_4.HW;
 
 public class MainHW {
-    static volatile char startA = 'A';
+    static volatile String startA = "A";
     static Object object = new Object();
 
     static class currentNext implements Runnable {
-        private char current;
-        private char next;
+        private String current;
+        private String next;
 
-        public currentNext(char current, char next) {
+        public currentNext(String current, String next) {
             this.current = current;
             this.next = next;
         }
@@ -19,7 +19,7 @@ public class MainHW {
             for (int i = 0; i < 5; i++) {
                 synchronized (object) {
                     try {
-                        while (startA != current) {
+                        while (!startA.equals(current)) {
                             object.wait();
                         }
                         System.out.print(current);
@@ -34,8 +34,8 @@ public class MainHW {
     }
 
     public static void main(String[] args) {
-        new Thread(new currentNext('A', 'B')).start();
-        new Thread(new currentNext('B', 'C')).start();
-        new Thread(new currentNext('C', 'A')).start();
+        new Thread(new currentNext("A", "B")).start();
+        new Thread(new currentNext("B", "C")).start();
+        new Thread(new currentNext("C", "A")).start();
     }
 }
