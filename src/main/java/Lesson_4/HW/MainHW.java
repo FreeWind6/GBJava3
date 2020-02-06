@@ -2,7 +2,7 @@
 package Lesson_4.HW;
 
 public class MainHW {
-    static volatile char x = 'A';
+    static volatile char startA = 'A';
     static Object object = new Object();
 
     static class currentNext implements Runnable {
@@ -19,11 +19,11 @@ public class MainHW {
             for (int i = 0; i < 5; i++) {
                 synchronized (object) {
                     try {
-                        while (x != current) {
+                        while (startA != current) {
                             object.wait();
                         }
                         System.out.print(current);
-                        x = next;
+                        startA = next;
                         object.notifyAll();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
