@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e961fd3e-b8be-441c-b976-b5862ec1529d" name="Default" comment="Add Lesson 4">
+    <list default="true" id="e961fd3e-b8be-441c-b976-b5862ec1529d" name="Default" comment="Add Lesson 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_6/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_6/MainL6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalcMassAddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCalc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27012020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/27012020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/HW/Tunnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/HW/Tunnel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,10 +67,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dmitry\Desktop\GBJava3\src\main\java" />
+      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src" />
       <recent name="C:\Users\Dmitry\Desktop\GBJava3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainHW (1)">
+  <component name="RunManager" selected="Application.MainClass (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -71,13 +79,13 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="LambdaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_1.LambdaApp" />
+    <configuration name="MFU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.MFU" />
       <module name="27012020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_1.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,13 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_1.Main" />
+    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.HW.MainClass" />
       <module name="27012020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_1.*" />
+          <option name="PATTERN" value="Lesson_5.HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,55 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_2.MainDB" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.HWTest.MainClass" />
       <module name="27012020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainHW (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.HW.MainHW" />
-      <module name="27012020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_4.HW.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainHW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.hw.MainHW" />
-      <module name="27012020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_3.hw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_1.Tasks.Task1.Main" />
-      <module name="27012020" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson_1.Tasks.Task1.*" />
+          <option name="PATTERN" value="Lesson_5.HWTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,6 +123,27 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="27012020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCalc" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalc.testAdd2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="27012020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCalc" />
+      <option name="METHOD_NAME" value="testAdd2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,19 +174,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LambdaApp" />
-      <item itemvalue="Application.MainDB" />
-      <item itemvalue="Application.MainHW" />
-      <item itemvalue="Application.MainHW (1)" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.MFU" />
+      <item itemvalue="JUnit.TestCalc" />
+      <item itemvalue="JUnit.TestCalc.testAdd2" />
+      <item itemvalue="Application.MainClass (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainHW (1)" />
-        <item itemvalue="Application.MainHW" />
-        <item itemvalue="Application.MainDB" />
-        <item itemvalue="Application.LambdaApp" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainClass (1)" />
+        <item itemvalue="JUnit.TestCalc" />
+        <item itemvalue="JUnit.TestCalc.testAdd2" />
+        <item itemvalue="Application.MFU" />
+        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +224,20 @@
       <workItem from="1580755399914" duration="3557000" />
       <workItem from="1580759962815" duration="1336000" />
       <workItem from="1581017501211" duration="1556000" />
+      <workItem from="1581338272175" duration="105000" />
+      <workItem from="1581338414404" duration="11000" />
+      <workItem from="1581358132654" duration="1805000" />
+      <workItem from="1581366095962" duration="1641000" />
+      <workItem from="1581368325462" duration="812000" />
+      <workItem from="1581369228584" duration="601000" />
+      <workItem from="1581407321702" duration="172000" />
+      <workItem from="1581408374173" duration="2662000" />
+      <workItem from="1581416726204" duration="45000" />
+      <workItem from="1581423470939" duration="65000" />
+      <workItem from="1581517941717" duration="104000" />
+      <workItem from="1581527187298" duration="14000" />
+      <workItem from="1581606264134" duration="250000" />
+      <workItem from="1581618980649" duration="279000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1">
       <created>1580149986621</created>
@@ -287,11 +288,45 @@
       <option name="project" value="LOCAL" />
       <updated>1581017532337</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Lesson 5">
+      <created>1581359846170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581359846170</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add additional home Work in lesson 5">
+      <created>1581367017436</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581367017436</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add home work">
+      <created>1581518033870</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581518033870</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add Lesson 1" />
@@ -301,7 +336,10 @@
     <MESSAGE value="Add Lesson 3" />
     <MESSAGE value="Add Home Work in Lesson 3" />
     <MESSAGE value="Add Lesson 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 4" />
+    <MESSAGE value="Add Lesson 5" />
+    <MESSAGE value="Add additional home Work in lesson 5" />
+    <MESSAGE value="add home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="add home work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1580153576256">
@@ -312,50 +350,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580150080788" />
-    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581018859311">
+    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581367255463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581018859311" />
+    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581367255463" />
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580158091370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580158091370" />
-    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1581017580109">
+    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1581619355453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581017580109" />
-    <state x="184" y="92" key="DiffContextDialog" timestamp="1580155556092">
+    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581619355453" />
+    <state x="184" y="92" width="1536" height="861" key="DiffContextDialog" timestamp="1581606461346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580155556092" />
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom" timestamp="1581019034244">
+    <state x="184" y="92" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581606461346" />
+    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1581619309396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581019034244" />
-    <state width="1877" height="175" key="GridCell.Tab.0.center" timestamp="1581019034244">
+    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581619309396" />
+    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1581619309396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581019034244" />
-    <state width="1877" height="175" key="GridCell.Tab.0.left" timestamp="1581019034244">
+    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581619309396" />
+    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1581619309396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581019034244" />
-    <state width="1877" height="175" key="GridCell.Tab.0.right" timestamp="1581019034244">
+    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581619309396" />
+    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1581619309396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581019034244" />
+    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581619309396" />
     <state x="764" y="242" key="RollbackChangesDialog" timestamp="1580396168203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580396168203" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581017533728">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581518036279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581017533728" />
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580396135633">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581518036279" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581606346661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580396135633" />
+    <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581606346661" />
     <state x="690" y="276" key="extract.method.dialog" timestamp="1580755887146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
