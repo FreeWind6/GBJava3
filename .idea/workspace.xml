@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e961fd3e-b8be-441c-b976-b5862ec1529d" name="Default" comment="Add Lesson 6">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_6/Lesson_Log4j2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson_6/Lesson_Log4j2/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/27012020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/27012020.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_6/Lesson_Log4j/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_6/Lesson_Log4j/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Lesson_6/Lesson_Log4j2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -67,9 +74,11 @@
       <recent name="Lesson_6.Lesson_Log4j" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src" />
-      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src\main\java" />
+      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src\main\java\Lesson_6\Lesson_Log4j2" />
+      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src\main\java\Lesson_6\Lesson_Log4j\2" />
+      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src\resources" />
       <recent name="C:\Users\Dmitry\Desktop\GBJava3" />
+      <recent name="C:\Users\Dmitry\Desktop\GBJava3\src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainClass (2)">
@@ -184,9 +193,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainClass (2)" />
-        <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="JUnit.TestCalc" />
         <item itemvalue="JUnit.TestCalc.testAdd2" />
+        <item itemvalue="JUnit.TestCalc" />
+        <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MFU" />
       </list>
     </recent_temporary>
@@ -239,7 +248,9 @@
       <workItem from="1581527187298" duration="14000" />
       <workItem from="1581606264134" duration="250000" />
       <workItem from="1581618980649" duration="440000" />
-      <workItem from="1581619543475" duration="583000" />
+      <workItem from="1581619543475" duration="1236000" />
+      <workItem from="1581624142286" duration="132000" />
+      <workItem from="1581624328369" duration="2829000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1">
       <created>1580149986621</created>
@@ -318,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581619407262</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Lesson 6">
+      <created>1581620294022</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581620294022</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,38 +378,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="782" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580150080788" />
-    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581367255463">
+    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581620706797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581367255463" />
+    <state x="427" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581620706797" />
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580158091370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580158091370" />
-    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1581620207232">
+    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1581627215691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581620207232" />
-    <state x="184" y="92" width="1536" height="861" key="DiffContextDialog" timestamp="1581606461346">
+    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581627215691" />
+    <state x="184" y="92" width="1536" height="861" key="DiffContextDialog" timestamp="1581627203100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="92" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581606461346" />
-    <state width="914" height="286" key="GridCell.Tab.0.bottom" timestamp="1581620217385">
+    <state x="184" y="92" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581627203100" />
+    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1581627160266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581620217385" />
-    <state width="914" height="286" key="GridCell.Tab.0.center" timestamp="1581620217385">
+    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581627160266" />
+    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1581627160266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581620217385" />
-    <state width="914" height="286" key="GridCell.Tab.0.left" timestamp="1581620217385">
+    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581627160266" />
+    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1581627160266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581620217385" />
-    <state width="914" height="286" key="GridCell.Tab.0.right" timestamp="1581620217385">
+    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581627160266" />
+    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1581627160266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581620217385" />
+    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581627160266" />
     <state x="960" y="210" key="Maven.ArtifactSearchDialog" timestamp="1581619704187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -400,10 +418,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580396168203" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581619408791">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581620296209">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581619408791" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581620296209" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581606346661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
