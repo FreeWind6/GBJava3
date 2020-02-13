@@ -9,32 +9,35 @@ public class MFU {
 
     public void print(String doc, int n) {
         synchronized (printLock) {
-            System.out.println("Начало печати");
-            for (int i = 0; i < 10; i++) {
+            System.out.println("Начало печати " + doc);
+/*            for (int i = 0; i < 10; i++) {
                 System.out.println(i);
-            }
+            }*/
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Конец печати");
+            System.out.println("Конец печати " + doc);
         }
 
     }
 
-    public void scan(String doc, int n) {
+    public void scan(String doc, int n, boolean sendEmail) {
         synchronized (scanLock) {
-            System.out.println("Начало сканирования");
-            for (int i = 0; i < 10; i++) {
+            System.out.println("Начало сканирования " + doc);
+/*            for (int i = 0; i < 10; i++) {
                 System.out.println(i);
-            }
+            }*/
             try {
                 Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println("Конец сканирования");
+            System.out.println("Конец сканирования " + doc);
+            if (!sendEmail) {
+                print(doc, n);
+            }
         }
     }
 
@@ -58,20 +61,20 @@ public class MFU {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                mfu.scan("Doc 3", 5);
+                mfu.scan("Doc 3", 5, false);
+            }
+        }).start();
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                mfu.scan("Doc 4", 5, true);
             }
         }).start();
 
     }
 
 }
-
-
-
-
-
-
-
 
 
 //    void testSc() {
