@@ -1,7 +1,7 @@
+/*
 package Lesson_6.Lesson_Log4j;
 
 import org.apache.log4j.Logger;
-
 
 import java.io.IOException;
 
@@ -32,3 +32,4 @@ public class MainClass {
     }
 
 }
+*/
