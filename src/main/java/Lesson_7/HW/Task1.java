@@ -42,15 +42,19 @@ public class Task1 {
             }
         }
         Collections.sort(arrayList);
-        System.out.println(arrayList);
+        Collections.reverse(arrayList);
+//        System.out.println(arrayList);
 
-        for (int i = 0; i < arrayList.size(); i++) {
+        while (arrayList.size() != 0) {
             for (Method o : methods) {
                 if (o.isAnnotationPresent(Test.class)) {
                     int priority = o.getAnnotation(Test.class).priority();
-                    if (priority == (int) arrayList.get(arrayList.size() - 1)) {
+                    if (arrayList.size() == 0){
+                        break;
+                    }
+                    if (priority == (int) arrayList.get(0)) {
                         o.invoke(cat);
-                        arrayList.remove(arrayList.size() - 1);
+                        arrayList.remove(0);
                     }
                 }
             }
