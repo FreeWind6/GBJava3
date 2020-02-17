@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e961fd3e-b8be-441c-b976-b5862ec1529d" name="Default" comment="Add Home work task 2 in Lesson 6">
+    <list default="true" id="e961fd3e-b8be-441c-b976-b5862ec1529d" name="Default" comment="Add Lesson 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,13 +13,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +63,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson_7.HW" />
       <recent name="" />
       <recent name="Lesson_6.Lesson_Log4j" />
     </key>
@@ -74,7 +75,7 @@
       <recent name="C:\Users\Dmitry\Desktop\GBJava3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task2">
+  <component name="RunManager" selected="Application.JobInterview">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -104,13 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_6.Lesson_Log4j.MainClass" />
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_7.HW.Task1" />
       <module name="27012020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_6.Lesson_Log4j.*" />
+          <option name="PATTERN" value="Lesson_7.HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +176,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainClass (2)" />
       <item itemvalue="Application.JobInterview" />
       <item itemvalue="Application.Task2" />
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.TestCalc.testAdd2" />
+      <item itemvalue="Application.Task1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JobInterview" />
+        <item itemvalue="Application.Task1" />
         <item itemvalue="JUnit.TestCalc.testAdd2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.JobInterview" />
-        <item itemvalue="Application.MainClass (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +246,7 @@
       <workItem from="1581634722816" duration="25000" />
       <workItem from="1581634752742" duration="2000" />
       <workItem from="1581634770936" duration="1262000" />
-      <workItem from="1581962451886" duration="8005000" />
+      <workItem from="1581962451886" duration="12099000" />
     </task>
     <task id="LOCAL-00001" summary="Add Lesson 1">
       <created>1580149986621</created>
@@ -338,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581633534811</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add Lesson 7">
+      <created>1581970589867</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581970589867</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +379,8 @@
     <MESSAGE value="Add Lesson 6" />
     <MESSAGE value="Add Home work task 1 in Lesson 6" />
     <MESSAGE value="Add Home work task 2 in Lesson 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Home work task 2 in Lesson 6" />
+    <MESSAGE value="Add Lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1580153576256">
@@ -394,10 +403,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580158091370" />
-    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1581633534117">
+    <state x="615" y="115" key="CommitChangelistDialog2" timestamp="1581974691630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581633534117" />
+    <state x="615" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581974691630" />
     <state x="184" y="92" width="1536" height="861" key="DiffContextDialog" timestamp="1581606461346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -406,38 +415,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581635801671" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1581970465462">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1581974561744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581970465462" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1581970465462">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581974561744" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1581974561744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581970465462" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1581970465462">
+    <state width="1877" height="145" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581974561744" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1581974561744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581970465462" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1581970465462">
+    <state width="1877" height="145" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581974561744" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1581974561744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581970465462" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1581967428340">
+    <state width="1877" height="145" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581974561744" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1581974191039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581967428340" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1581967428340">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581974191039" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1581974191039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581967428340" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1581967428340">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581974191039" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1581974191039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581967428340" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1581967428340">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581974191039" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1581974191039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581967428340" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581974191039" />
     <state x="960" y="210" key="Maven.ArtifactSearchDialog" timestamp="1581619704187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -450,10 +459,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="242" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580396168203" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581633535978">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581974626980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581633535978" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581974626980" />
     <state x="769" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581970473674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
