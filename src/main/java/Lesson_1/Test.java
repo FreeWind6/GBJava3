@@ -5,7 +5,7 @@ public class Test {
 
 //1Какой будет результат выполнения следующего кода
 //
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //    public static void main(String[]args){
 //        System.out.println(1%2==1);
 //    }
@@ -26,7 +26,7 @@ public class Test {
 
 //  2 Какой будет результат выполнения следующего кода
 //
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //
 //    public static void main(String[]args){
 //        String str = "abc";
@@ -63,7 +63,7 @@ public class Test {
 
 
 // 3 Какой будет результат выполнения следующего кода
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //    public static void main(String[] args) {
 //         public static void main(String[] args) {
 //        {
@@ -92,7 +92,7 @@ public class Test {
 
 //   4 Какой будет результат выполнения следующего кода
 
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //    public static void main(String[] args) {
 //        for (int i = 0; i < 5; i += 2) {
 //            System.out.println(i++);
@@ -107,7 +107,7 @@ public class Test {
 
 
 //        5 Какой будет результат выполнения следующего кода
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //    public static void main(String[] args) {
 //        float d = 12.3;
 //        System.out.println(d);
@@ -126,7 +126,7 @@ public class Test {
 
 //        6 Какой будет результат выполнения следующего кода
 //
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //    public static void main(String[] args) {
 //        int i = 2;
 //
@@ -150,7 +150,7 @@ public class Test {
 
 //
 //        7 Какой будет результат выполнения следующего кода
-//public class Lesson_6.HW.Test {
+//public class Lesson_6.HW.Lesson_7.HW.Test {
 //
 //    public static void main(String[] args) {
 //        int a = 1;
