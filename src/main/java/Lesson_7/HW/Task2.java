@@ -9,7 +9,7 @@ import java.net.URLClassLoader;
 public class Task2 {
     public static void main(String[] args) throws Exception {
         Class ch = URLClassLoader.newInstance(new URL[]{
-                new File("C:\\12345").toURL()}).loadClass("Main");
+                new File("C:\\12345").toURL()}).loadClass("Lesson_7.Main");
 
         Constructor constructor = ch.getConstructor();
         Object ma = constructor.newInstance();
